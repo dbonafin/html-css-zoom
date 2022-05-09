@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-/* debug */
-body {
-    background-color: bisque;
-}
-
 /* common */
 
 .flex {
@@ -21,6 +16,10 @@ body {
 
 img {
     width: 100%;
+}
+
+body {
+    background-color: black;
 }
 
 /* header */
@@ -45,7 +44,7 @@ ul {
     text-decoration: none;
 }
 
-ul li {
+nav ul li {
     margin: 0 5px;
     background-color: gray;
     border-radius: 3px;
@@ -82,3 +81,59 @@ main {
     font-size: 12px;
     background-color: rgba(180, 172, 172, 0.8);
 }
+
+/* footer */
+
+footer {
+    font-size: 12px;
+}
+
+.footer-area {
+    height: 70px;
+    margin-top: 20px;
+    width: 100%;
+    vertical-align: baseline;
+    background-color: rgba(100, 100, 100, 0.4);
+}
+
+.footer-area ul {
+    align-items: center;
+}
+
+.footer-area a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.footer-area li {
+    margin: 0 8px;
+    text-align: center;
+}
+
+.first-options {
+    width: 30%;
+    align-items: center;
+}
+
+.central-options {
+    width: 62%;
+    align-items: center;
+}
+
+.green {
+    color: rgb(0, 250, 129);
+}
+
+.end-options {
+    background-color: darkgray;
+    width: 8%;
+    align-items: center;
+    justify-content: center;
+}
+
+.end-options a{
+    color: red;
+}
+
+
+
